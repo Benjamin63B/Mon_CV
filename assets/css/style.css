@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap');
+@font-face {
+    font-family: 'Raleway';         /** Importation des fonts **/
+    src: url('../fonts/Raleway.ttf');
+} 
+
+* {
+    font-family: 'Lato'; /** Style global **/
+    
+}
+
+header { /**Style du Header**/
+    text-align: center;
+}
+
+body { /** Style du Body **/
+    background: #782221;
+    width: 1160px;
+    text-align: center;
+}
+
+footer { /** Style du Footer **/
+
+}
+
+.info {
+    background: #2c1d27;
+    display: block;
+    padding: 20px 20px 20px 20px;
+    text-decoration: none; 
+}
+a {
+    text-decoration: none;
+}
+
+img {
+    border-radius: 50%;
+    border: 2px solid black;
+    box-shadow: 6px 6px 25px black;
+    cursor: zoom-in;
+}
+
+.bloc-gauche h3{
+    background: #DBC2A4;
+    font-family: 'Lato';
+}
