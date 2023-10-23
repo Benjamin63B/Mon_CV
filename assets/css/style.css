@@ -24,7 +24,7 @@ footer { /** Style du Footer **/
 
 }
 
-.info ul { 
+.info {
     background: #2c1d27;
     display: flex;
     justify-content: space-between; 
