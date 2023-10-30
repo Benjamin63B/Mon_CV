@@ -4,9 +4,7 @@
     src: url('../fonts/Raleway.ttf');
 } 
 
-* {
-    font-family: 'Lato'; /** Style global **/
-    
+html {        
 }
 
 header { /**Style du Header**/
@@ -14,6 +12,7 @@ header { /**Style du Header**/
 }
 
 body { /** Style du Body **/
+    font-family: 'Raleway';
     background: #782221;
     width: 1160px;
     text-align: center;
@@ -23,28 +22,6 @@ body { /** Style du Body **/
 footer { /** Style du Footer **/
 
 }
-
-.info {
-    background: #2c1d27;
-    display: flex;
-    justify-content: space-between; 
-    align-items: stretch;    
-    height: 100%;
-    padding: 15px;
-    gap: 5px;
-    padding: 20px 20px 20px 20px;
-    text-decoration: none; 
-}
-a {
-    text-decoration: none;
-    color: white;
-
-}
-
-li {
-    list-style: none;
-}
-
 img {
     border-radius: 50%;
     border: 2px solid black;
@@ -52,39 +29,70 @@ img {
     cursor: zoom-in;
 }
 
+.bloc_header_info {
+    background: #2c1d27;
 
-.bloc {
+
+}
+.bloc_header_info ul {
+    padding: 15px;
+    list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
 }
-.bloc_1 h3 {
-    flex: 100%;
+
+.bloc_header_info li {
     display: block;
-    background-color: #dbc2a4;
-    text-align: left;
-    padding: 6px;
-    border: 10px 10px 10px #dbc2a4;
+    flex: 1;
+    color: white;
+    list-style: none;
 }
 
-.bloc_2 {
-    flex: 70%;
-    padding: 20px;
-    text-align: left;
-    background: white;
+.bloc_header_info a {
+    color: white;
+    text-decoration: none;
 }
 
-.bloc_3 {
-    flex: 50%;
-    padding: 20px;
-    text-align: left;
-    background: white;
-    margin: 18px;
+
+.bloc_global_info {
+    display: block;
+    float: left;
+    color: white;
+    
 }
 
-.bloc_4 {
-    flex: 50%;
-    padding: 20px;
+.bloc_global_info h3 {
+    background: #dbc2a4;
+    color: black;
     text-align: left;
-    background: white;
-    margin: 18px;
+    padding-left: 15px;
+    
+}
+
+.bloc_global_info li {
+    list-style: none;
+    text-align: left;
+}
+
+
+.bloc_global_exppro {
+    display: block;
+    float: center;
+}
+
+.bloc_global_exppro h3 {
+    background: #dbc2a4;
+}
+
+.bloc_global_exppro li {
+    list-style: none;
+}
+
+
+.bloc_global_formation {
+    display: block;
+    float: center;
 }
