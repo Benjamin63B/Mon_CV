@@ -4,7 +4,8 @@
     src: url('../fonts/Raleway.ttf');
 } 
 
-html {        
+html {     
+    margin: center;   
 }
 
 header { /**Style du Header**/
@@ -14,9 +15,8 @@ header { /**Style du Header**/
 body { /** Style du Body **/
     font-family: 'Raleway';
     background: #782221;
+    margin: 0 auto;
     width: 1160px;
-    text-align: center;
-    margin: 0;
 }
 
 footer { /** Style du Footer **/
@@ -31,7 +31,6 @@ img {
 
 .bloc_header_info {
     background: #2c1d27;
-    text-align: center;
 
 
 }
@@ -57,43 +56,38 @@ img {
     text-decoration: none;
 }
 
-
-.bloc_global_info {
-    display: block;
-    float: left;
-    color: white;
-    
+.bloc {
+    display: flex;
+    flex-direction: row;
 }
 
-.bloc_global_info h3 {
-    background: #dbc2a4;
-    color: black;
+.bloc_left {
+    flex-basis: 30%;
+}
+
+
+.bloc_left h3 {
+    font-family: 'Lato';
     text-align: left;
+    background: #dbc2a4;
     padding-left: 15px;
-    
+
 }
 
-.bloc_global_info li {
+.bloc_global {
+    flex-basis: 70%;
+    background: white;
+}
+
+.bloc_global h3 {
+    font-family: 'Lato';
+    text-align: left;
+    background: #dbc2a4;
+    border-left: #782221 10px solid;
+    margin-left: 15px;
+}
+
+.bloc_global ul {
     list-style: none;
     text-align: left;
-}
-
-
-.bloc_global_exppro {
-    display: block;
-    float: center;
-}
-
-.bloc_global_exppro h3 {
-    background: #dbc2a4;
-}
-
-.bloc_global_exppro li {
-    list-style: none;
-}
-
-
-.bloc_global_formation {
-    display: block;
-    float: center;
 }
