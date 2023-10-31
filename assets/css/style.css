@@ -5,7 +5,8 @@
 } 
 
 html {     
-    margin: center;   
+    margin: auto;
+    background: white;   
 }
 
 header { /**Style du Header**/
@@ -21,11 +22,8 @@ body { /** Style du Body **/
 
 footer { /** Style du Footer **/
 
-background: #782221;
 }
-
-
-img {
+.bloc_header img {
     border-radius: 50%;
     border: 2px solid black;
     box-shadow: 6px 6px 25px black;
@@ -66,6 +64,7 @@ img {
 
 .bloc_left {
     flex-basis: 30%;
+    margin-right: 30px;
 }
 
 
@@ -74,12 +73,14 @@ img {
     text-align: left;
     background: #dbc2a4;
     padding-left: 15px;
+    padding-block: 5px;
 
 }
 
 .bloc_global {
     flex-basis: 70%;
     background: white;
+    border-right: black 2px solid;
 }
 
 .bloc_global h3 {
@@ -87,10 +88,45 @@ img {
     text-align: left;
     background: #dbc2a4;
     border-left: #782221 10px solid;
+    margin-left: 30px;
+    padding-block: 5px;
+}
+
+.bloc_global h3:hover {
+    border-right: #782221 10px solid;
+
+}
+
+.bloc_global h5 {
     margin-left: 15px;
 }
 
 .bloc_global ul {
-    list-style: none;
     text-align: left;
+    margin-left: 15px;
+}
+
+.bloc_global p {
+    text-align: left;
+    margin-left: 15px;
+}
+
+footer {
+    display: block;
+    flex-direction: row;
+    text-align: center;
+}
+
+footer img {
+    width: 32px;
+    height: 32px;
+    margin: auto; 
+    padding-block: 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+
+.footer p {
+    padding-block: 10px;
 }
