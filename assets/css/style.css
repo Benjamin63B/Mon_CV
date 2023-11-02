@@ -11,6 +11,7 @@ html {
 
 header { /**Style du Header**/
     text-align: center;
+    color: white;
 }
 
 body { /** Style du Body **/
@@ -20,10 +21,9 @@ body { /** Style du Body **/
     width: 1160px;
 }
 
-footer { /** Style du Footer **/
-
-}
 .bloc_header img {
+    width: 128px;
+    height: 128px;
     border-radius: 50%;
     border: 2px solid black;
     box-shadow: 6px 6px 25px black;
@@ -32,9 +32,9 @@ footer { /** Style du Footer **/
 
 .bloc_header_info {
     background: #2c1d27;
-
-
+    color: white;
 }
+
 .bloc_header_info ul {
     padding: 15px;
     list-style-type: none;
@@ -57,6 +57,10 @@ footer { /** Style du Footer **/
     text-decoration: none;
 }
 
+.bloc_header_info a:hover {
+    text-decoration: underline;
+}
+
 .bloc {
     display: flex;
     flex-direction: row;
@@ -74,7 +78,20 @@ footer { /** Style du Footer **/
     background: #dbc2a4;
     padding-left: 15px;
     padding-block: 5px;
+}
 
+.bloc_left li {
+    color: white;
+}
+
+.bloc_left_info ul {
+    margin-left: -5px;
+}
+
+.bloc_left_info p {
+    margin-left: 20px;
+    color: white;
+    text-indent: 30px;
 }
 
 .bloc_global {
@@ -98,7 +115,7 @@ footer { /** Style du Footer **/
 }
 
 .bloc_global h5 {
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
 .bloc_global ul {
@@ -108,22 +125,27 @@ footer { /** Style du Footer **/
 
 .bloc_global p {
     text-align: left;
-    margin-left: 15px;
+    margin-left: 30px;
 }
 
-footer {
+.footer {
     display: block;
     flex-direction: row;
     text-align: center;
 }
 
-footer img {
+.footer img {
     width: 32px;
     height: 32px;
     margin: auto; 
     padding-block: 10px;
     text-align: center;
     justify-content: center;
+    opacity: 1;
+}
+
+.footer img:hover {
+    opacity: 0.8;
 }
 
 
