@@ -14,6 +14,7 @@ header { /**Style du Header**/
     color: white;
 }
 
+
 body { /** Style du Body **/
     font-family: 'Raleway';
     background: #782221;
@@ -84,11 +85,11 @@ body { /** Style du Body **/
     color: white;
 }
 
-.bloc_left_info ul {
+.bloc_left ul {
     margin-left: -5px;
 }
 
-.bloc_left_info p {
+.bloc_left p {
     margin-left: 20px;
     color: white;
     text-indent: 30px;
@@ -114,7 +115,7 @@ body { /** Style du Body **/
 
 }
 
-.bloc_global h5 {
+.bloc_global h4 {
     margin-left: 30px;
 }
 
@@ -149,7 +150,8 @@ body { /** Style du Body **/
 }
 
 
-.footer p {
+.footer small {
     padding-block: 10px;
     color: white;
+    text-align: center;
 }
