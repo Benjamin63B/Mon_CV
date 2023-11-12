@@ -4,7 +4,7 @@
     src: url('../fonts/Raleway.ttf');
 } 
 
-html {     
+html { /** Style du HTML **/
     margin: auto;
     background: white;   
 }
@@ -22,7 +22,7 @@ body { /** Style du Body **/
     width: 1160px;
 }
 
-.bloc_header img {
+.bloc_header img { /** Style de l'image ronde **/
     width: 128px;
     height: 128px;
     border-radius: 50%;
@@ -130,7 +130,7 @@ body { /** Style du Body **/
     margin-left: 30px;
 }
 
-.footer {
+.footer { /** Style du Footer **/
     display: block;
     flex-direction: row;
     text-align: center;
